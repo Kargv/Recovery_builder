@@ -20,7 +20,7 @@ env:
   IMAGE: twrp
   # (required) depend of device tree if you see twrp_"codename".mk use twrp
   # else (omni_"codename".mk): omni
-  OT: twrp
+  OT: omni
   # dont change that
   SYM: _
   # (required) output format for some reason samsung phones need a custom mkbootimg
