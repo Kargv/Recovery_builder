@@ -15,12 +15,12 @@ env:
   # (required) who made your phone ? 
   MANUFACTURER: samsung
   # (required) recovery partiton = recovery, else (no recovery partition): boot 
-  TARGET: recovery
+  TARGET: boot
   # dont change that
-  IMAGE: omni
+  IMAGE: twrp
   # (required) depend of device tree if you see twrp_"codename".mk use twrp
   # else (omni_"codename".mk): omni
-  OT: omni
+  OT: twrp
   # dont change that
   SYM: _
   # (required) output format for some reason samsung phones need a custom mkbootimg
